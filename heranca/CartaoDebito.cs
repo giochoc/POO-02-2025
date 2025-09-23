@@ -13,7 +13,7 @@ public class CartaoDebito
     public string Portador { get; set; }
     public string Cvv { get; set; }
 
-
+    public decimal saldo
 }
 
 public enum BandeiraCartao
